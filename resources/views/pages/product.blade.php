@@ -1,8 +1,8 @@
 @extends('layouts.app')
 @section('title')
-Blog
+Product
     
 @endsection
 @section('main_content')
-<h1>Blog</h1>
+<h1>Product</h1>
 @endsection

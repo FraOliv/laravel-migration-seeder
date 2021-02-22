@@ -14,8 +14,8 @@ class PageController extends Controller
     {
         return view('pages.about');
     }
-    public function Blog()
+    public function Product()
     {
-        return view('pages.blog');
+        return view('pages.product');
     }
 }
