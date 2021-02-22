@@ -17,3 +17,4 @@ Route::get('/', 'PageController@home')->name('home');
 Route::get('about', 'PageController@about')->name('about');
 Route::resource('products', 'ProductController');
 Route::resource('categories', 'CategoryController');
+Route::resource('customers', 'CustomerController');

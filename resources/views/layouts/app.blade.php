@@ -19,6 +19,7 @@
                     <a href="{{route('about')}}">About</a>
                     <a href="{{route('products.index')}}">Products</a>
                     <a href="{{route('categories.index')}}">Categories</a>
+                    <a href="{{route('customers.index')}}">Customers</a>
                     
                     
                 </div>
