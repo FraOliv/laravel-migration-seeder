@@ -23,12 +23,20 @@ Products
 
 
 <tbody>
-    @forelse ($posts as $value)
+    @forelse ($products as $product)
     <tr>
-        <td>{{$value->id}}</td>
-        <td>{{$value->title}}</td>
-        <td>{{$value->body}}</td>
-        
+       <tr>
+        <td>{{$product->id}}</td>
+        <td>{{$product->title}}</td>
+        <td>{{$product->description}}</td>
+        <td>{{$product->quantity}}</td>
+    </tr>
+    </tr>
+    @empty
+    <tr>
+        <td>no posts in here</td>
+    </tr>
+    @endforelse
 </tbody>
 </table>
     
