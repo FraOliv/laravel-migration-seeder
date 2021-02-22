@@ -34,10 +34,13 @@ Products
     </tr>
     @empty
     <tr>
-        <td>no posts in here</td>
+        <td>no products in here</td>
     </tr>
     @endforelse
 </tbody>
 </table>
-    
+
+
+
+
 @endsection

@@ -17,7 +17,8 @@
               <div class="links">
                     <a href="{{route('home')}}"> Home</a>
                     <a href="{{route('about')}}">About</a>
-                    <a href="{{route('products.index')}}">Product</a>
+                    <a href="{{route('products.index')}}">Products</a>
+                    <a href="{{route('categories.index')}}">Categories</a>
                     
                     
                 </div>
